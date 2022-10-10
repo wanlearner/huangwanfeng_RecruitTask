@@ -15,7 +15,7 @@ void Delay1ms(unsigned int xms)		//@11.0592MHz
 		  while (--j);
 	  }   while (--i);
 	    xms=xms-1;
-	}//循环xms后退出循环，会有误差
+	}//循环xms后退出循环，会有误差，暂时还不知道误差在哪儿
 }
 
 void main(){
